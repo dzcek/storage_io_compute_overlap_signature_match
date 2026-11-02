@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dzcek-alignrsr_jd213"
+name = "dzcek-storage_io_compute_overlap_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别对齐算法研究员·存储 IO 与计算的重叠的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://dzcek.github.io"
-Repository = "https://github.com/dzcek/alignrsr_jd213"
-Issues = "https://github.com/dzcek/alignrsr_jd213/issues"
+Repository = "https://github.com/dzcek/storage_io_compute_overlap_signature_match"
+Issues = "https://github.com/dzcek/storage_io_compute_overlap_signature_match/issues"
 
 [project.scripts]
-alignrsr_jd213 = "alignrsr_jd213:main"
+storage_io_compute_overlap_signature_match = "storage_io_compute_overlap_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["alignrsr_jd213"]
+py-modules = ["storage_io_compute_overlap_signature_match"]
